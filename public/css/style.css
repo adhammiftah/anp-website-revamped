@@ -738,6 +738,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(154 79 79 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#b58757\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(181 135 87 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -784,6 +789,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -818,6 +827,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
