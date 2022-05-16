@@ -14,8 +14,8 @@
       href="images/icon.png">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
-    <script src="../node_modules/aos/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/custom-style.css">
+    <link rel="stylesheet" href="css/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Amalfi & Partners</title>
 </head>
@@ -57,7 +57,7 @@
     </header>
     
     <div class="flex flex-wrap justify-center w-full">
-        <section style="background-image: url('../public/images/home-background.png');" class="flex justify-center bg-cover bg-center w-[1920px] h-screen">
+        <section style="background-image: url('images/home-background.png');" class="flex justify-center bg-cover bg-center w-[1920px] h-screen">
             <div class="w-4/5 h-[85vh] flex items-center">
                 <div class="grid grid-rows-2 h-56">
                     <h1 class="text-3xl md:text-5xl text-red-900">
@@ -70,7 +70,7 @@
             </div>
         </section>
         
-        <section id="about" style="background-image: url('../public/images/landing-2.png');" class="flex justify-center bg-bottom w-[1920px] h-screen min-h-[768px]">
+        <section id="about" style="background-image: url('images/landing-2.png');" class="flex justify-center bg-bottom w-[1920px] h-screen min-h-[768px]">
             <div class="w-4/5 h-full flex content-center items-center">
                 <div class="grid h-56 mb-44">
                     <h1 data-aos="fade-up" class="text-3xl md:text-5xl text-red-900 font-bold mb-5">
@@ -83,17 +83,17 @@
                     </p>
                     <div class="items-center flex flex-row w-96 h-24 mt-3">
                         <div data-aos="fade-up" data-aos-duration="500" class="w-14 mr-5">
-                            <a href="https://www.inta.org/">
+                            <a href="https://www.inta.org/" target="_blank">
                                 <img src="images/inta-logo.png" alt="">
                             </a>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="750" class="w-14 mr-5">
-                            <a href="https://apaaonline.org/">
+                            <a href="https://apaaonline.org/" target="_blank">
                                 <img src="images/apaa-logo.png" alt="">
                             </a>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000" class="w-28 mr-5">
-                            <a href="https://akhki.or.id/">
+                            <a href="https://akhki.or.id/" target="_blank">
                                 <img src="images/akhki-logo.png" alt="">
                             </a>
                         </div>
@@ -105,7 +105,7 @@
             </div>
         </section>
         
-        <section id="services" style="background-image: url('../public/images/landing-3.png');" class="flex justify-center bg-bottom w-[1920px]">
+        <section id="services" style="background-image: url('images/landing-3.png');" class="flex justify-center bg-bottom w-[1920px]">
             <div class="w-4/5 h-full flex justify-center items-center pt-10 pb-10">
                 <div class="w-full flex flex-col">
                     <h1 data-aos="fade-up" class="text-3xl md:text-5xl text-white text-right font-bold mb-10">
@@ -160,7 +160,7 @@
             </div>
         </section>
         
-        <section id="clients" style="background-image: url('../public/images/landing-4.png');" class="flex justify-center bg-top w-[1920px] h-screen min-h-[768px]">
+        <section id="clients" style="background-image: url('images/landing-4.png');" class="flex justify-center bg-top w-[1920px] h-screen min-h-[768px]">
             <div class="w-4/5 h-full flex content-center items-center">
                 <div class="grid h-56">
                     <h1 data-aos="fade-up" class="text-3xl md:text-5xl text-red-900 font-bold mb-5">
@@ -177,7 +177,7 @@
             </div>
         </section>
 
-        <section id="contacts" style="background-image: url('../public/images/landing-5.png');" class="flex justify-center bg-top w-[1920px] h-[50vh] min-h-[450px]">
+        <section id="contacts" style="background-image: url('images/landing-5.png');" class="flex justify-center bg-top w-[1920px] h-[50vh] min-h-[450px]">
             <div class="w-4/5 h-full flex flex-wrap content-center items-center">
                 <h1 data-aos="fade-up" class="text-3xl md:text-5xl text-white font-bold mb-5">
                     Contact us
@@ -233,6 +233,8 @@
     </footer>
     
 </body>
+
+<script type="text/javascript" src="js/aos.js"></script>
 <script>
     AOS.init();
 </script>
